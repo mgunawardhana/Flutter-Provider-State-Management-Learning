@@ -18,12 +18,12 @@ class CounterCard extends StatelessWidget {
       elevation: 8,
       margin: EdgeInsets.all(20),
       child: Padding(
-        padding: EdgeInsets.all(20), // ✅ fixed here
+        padding: EdgeInsets.all(20),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              "$value", // ✅ added comma
+              "$value",
               style: TextStyle(fontSize: 80, fontWeight: FontWeight.bold),
             ),
 
